@@ -54,7 +54,7 @@ u_init_SV4 = SV4_init_QNSOE(6);
 
 n_init_Sv4 = sqrt(muearth / a_init_SV4^3); % rad/s
 T_SV4      = 2*pi*sqrt(a_init_SV4^3/muearth);
-nOrbits    = 1/5;
+nOrbits    = 20;
 t0         = 0;
 tf         = T_SV4*nOrbits;
 step_size  = 100;
